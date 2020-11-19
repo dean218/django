@@ -854,3 +854,9 @@ to remove usage of these features.
 
 * Support for ``SimpleTestCase.allow_database_queries`` and
   ``TransactionTestCase.multi_db`` is removed.
+
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
